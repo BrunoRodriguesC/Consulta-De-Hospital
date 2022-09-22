@@ -1,0 +1,14 @@
+tela de inicio - senha, sair
+tela principal - marcar consulta, excluir consulta, ver consultas, adicionar medico, excluir medico, sair
+adicionar medico - nome, crm, telefone
+excluir medico - printar medicos com numeros, escolher numero, excluir medico
+Marcar consulta - nome, rg, cpf, idade, telefone, data, medico
+excluir consulta - printar consulta com numeros, escolher numero, excluir consulta
+ver consultas - printar consultas com numeros
+Fazer documentacao
+
+
+USAR DICIONARIO
+    def Registrar(nome, idade, Cpf, Rg, Email, Telefone):
+    paciente = {"nome" : nome, "idade" : idade, "Cpf": Cpf, "Rg":Rg, "Email":Email, "Telefone":Telefone}
+    return paciente
